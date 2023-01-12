@@ -9,7 +9,6 @@ let counterValue = 0;
       counterValue -= 1;
 
       valueEl.innerHTML = counterValue;
-      console.log(counterValue)
     }
 
 removeListenerBtn.addEventListener('click', (decrement))
@@ -17,8 +16,7 @@ removeListenerBtn.addEventListener('click', (decrement))
   let increment = () => {
       counterValue += 1; 
 
-      valueEl.innerHTML = counterValue;
-      console.log(counterValue)
+      valueEl.innerHTML = counterValue; 
   }
 
 addListenerBtn.addEventListener('click', (increment))

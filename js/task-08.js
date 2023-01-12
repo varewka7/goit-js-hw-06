@@ -15,6 +15,5 @@ function onFormSubmit(event) {
 
     const newObject = { email: email.value, password: password.value };
 
-    console.log(newObject);
     event.currentTarget.reset();
 }

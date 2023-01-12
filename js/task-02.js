@@ -17,5 +17,4 @@ const ingredientsEl = ingredients.map((el) => {
    
 });
 
-console.log(ingredientsEl);
 ulElements.append(...ingredientsEl);

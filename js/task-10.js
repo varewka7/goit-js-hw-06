@@ -22,15 +22,16 @@ const createBoxes = amount => {
 }
 
 const destroyBoxes = () => {
-	boxes.innerHTML = ''
+	boxes.innerHTML = '';
+	input.value = '';
 }
 
 btnCreate.addEventListener('click', () => {
 	let boxesToAdd = createBoxes(input.value)
 	boxes.append(...boxesToAdd)
 })
-console.log(input.value)
 
 btnDestroy.addEventListener('click', () => {
-	destroyBoxes.call()
+	destroyBoxes.call();
+	
 })
